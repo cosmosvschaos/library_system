@@ -46,3 +46,44 @@ During the club session, go over the flowchart, formats of the tables(database),
 
 3. Use Constants: Using constants instead of hardcoding numbers directly into your code makes it more readable and maintainable. By giving them descriptive names and storing them as constants, you make it easier to understand the purpose of those values and modify them later if needed. For example: 
 > `PERIOD = 3`
+
+4. Consider using Visual Studio Code. It's so much powerful and efficient
+
+5. Consider using Pandas for database
+You can store the DataFrame to a file using the `to_csv()` method in pandas. Here's how you can modify the previous code to save the DataFrame to a CSV file:
+
+```python
+import pandas as pd
+
+# Create an empty DataFrame with columns
+df = pd.DataFrame(columns=['s_id', 'isbn', 'date', 'is_returning'])
+
+# Display empty DataFrame
+print("Empty DataFrame:")
+print(df)
+print()
+
+# Add entries to the DataFrame
+new_entries = [
+    {'s_id': '1', 'isbn': '978-0143129321', 'date': '2024-02-28', 'is_returning': True},
+    {'s_id': '2', 'isbn': '978-0553380163', 'date': '2024-02-27', 'is_returning': False},
+    {'s_id': '3', 'isbn': '978-1400031366', 'date': '2024-02-26', 'is_returning': True},
+    {'s_id': '4', 'isbn': '978-0743273565', 'date': '2024-02-25', 'is_returning': False},
+    {'s_id': '5', 'isbn': '978-0553380156', 'date': '2024-02-24', 'is_returning': True}
+]
+
+for entry in new_entries:
+    df = df.append(entry, ignore_index=True)
+
+# Display DataFrame with new entries
+print("DataFrame with new entries:")
+print(df)
+print()
+
+# Save DataFrame to a CSV file
+df.to_csv('data.csv', index=False)
+
+print("Data saved to 'data.csv' file.")
+```
+
+This code will save the DataFrame to a file named 'data.csv' in the current directory without including the index column. You can change the filename or path as needed.
