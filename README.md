@@ -1,4 +1,4 @@
-# How to preapre for the team project where each member is responsible for a different function
+# How to preapre for collaborative programming project
 
 ### Step 1: Draw a flow chart of the whole program
 
