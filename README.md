@@ -50,40 +50,32 @@ During the club session, go over the flowchart, formats of the tables(database),
 4. Consider using Visual Studio Code. It's so much powerful and efficient
 
 5. Consider using Pandas for database
-You can store the DataFrame to a file using the `to_csv()` method in pandas. Here's how you can modify the previous code to save the DataFrame to a CSV file:
+You can store a new entry to a csv file as follows if you use Pandas
 
 ```python
 import pandas as pd
 
-# Create an empty DataFrame with columns
-df = pd.DataFrame(columns=['s_id', 'isbn', 'date', 'is_returning'])
+# Read the CSV file
+df = pd.read_csv('data.csv')
 
-# Display empty DataFrame
-print("Empty DataFrame:")
+# Display the DataFrame before adding new entry
+print("DataFrame before adding new entry:")
 print(df)
 print()
 
-# Add entries to the DataFrame
-new_entries = [
-    {'s_id': '1', 'isbn': '978-0143129321', 'date': '2024-02-28', 'is_returning': True},
-    {'s_id': '2', 'isbn': '978-0553380163', 'date': '2024-02-27', 'is_returning': False},
-    {'s_id': '3', 'isbn': '978-1400031366', 'date': '2024-02-26', 'is_returning': True},
-    {'s_id': '4', 'isbn': '978-0743273565', 'date': '2024-02-25', 'is_returning': False},
-    {'s_id': '5', 'isbn': '978-0553380156', 'date': '2024-02-24', 'is_returning': True}
-]
+# Add a new entry
+new_entry = {'s_id': '6', 'isbn': '978-0812988406', 'date': '2024-02-23', 'is_returning': True}
+df = df.append(new_entry, ignore_index=True)
 
-for entry in new_entries:
-    df = df.append(entry, ignore_index=True)
-
-# Display DataFrame with new entries
-print("DataFrame with new entries:")
+# Display DataFrame with new entry
+print("DataFrame with new entry:")
 print(df)
 print()
 
-# Save DataFrame to a CSV file
+# Update the CSV file with the new data
 df.to_csv('data.csv', index=False)
 
-print("Data saved to 'data.csv' file.")
+print("CSV file updated with new entry.")
 ```
 
 This code will save the DataFrame to a file named 'data.csv' in the current directory without including the index column. You can change the filename or path as needed.
