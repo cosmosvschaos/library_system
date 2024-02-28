@@ -38,7 +38,7 @@ The main function (`main.py`) will be developed by the project leader, and each 
 
 During the club session, go over the flowchart, formats of the tables(database), function signatures, and descriptions with your teammates. This ensures everyone is on the same page and understands their tasks. Encourage discussions and suggestions for improvements at this stage to prevent issues later in the project timeline.
 
-### TIPS:
+### HINT:
 
 1. Start with a *Simple* Prototype: Beginning with a smaller and simpler plan allows you to iterate quickly and get feedback early in the development process. This agile approach enables you to identify and address issues sooner, and everyone understands the project better
 
