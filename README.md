@@ -1,4 +1,4 @@
-# Preparing for the Project
+# How to preapre for the team project where each member is responsible for a different function
 
 ### Step 1: Draw a flow chart of the whole program
 
