@@ -47,7 +47,7 @@ During the club session, go over the flowchart, formats of the tables(database),
 3. Use Constants: Using constants instead of hardcoding numbers directly into your code makes it more readable and maintainable. By giving them descriptive names and storing them as constants, you make it easier to understand the purpose of those values and modify them later if needed. For example: 
 > `PERIOD = 3`
 
-4. Consider using Visual Studio Code. It's so much powerful and efficient
+4. Consider using Visual Studio Code. It's so much powerful and efficient to write code, installing library and so on.
 
 5. Consider using Pandas for database
 You can store a new entry to a csv file as follows if you use Pandas
@@ -56,7 +56,7 @@ You can store a new entry to a csv file as follows if you use Pandas
 import pandas as pd
 
 # Read the CSV file
-df = pd.read_csv('data.csv')
+df = pd.read_csv('log.csv')
 
 # Display the DataFrame before adding new entry
 print("DataFrame before adding new entry:")
@@ -73,9 +73,10 @@ print(df)
 print()
 
 # Update the CSV file with the new data
-df.to_csv('data.csv', index=False)
+df.to_csv('log.csv', index=False)
 
 print("CSV file updated with new entry.")
+
 ```
 
 This code will save the DataFrame to a file named 'data.csv' in the current directory without including the index column. You can change the filename or path as needed.
