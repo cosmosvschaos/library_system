@@ -6,8 +6,6 @@ You can create the flow chart using <https://app.diagrams.net/>
 
 ### Step 2: Create Empty Functions with Signatures in Comments in Different Files
 
-Each file will be assigned to a team member, containing empty functions to be developed by the respective person.
-
 In each function's comments, include the following information:
 
 1. **Parameter Names and Types:** Describe the input values that the function expects.
@@ -34,7 +32,7 @@ def update_log(s_id: str, isbn: str, date: str, is_returning: bool):
 
 > This file is in update.py, and the function is `update_log`. The team member responsible for this function will develop the logic to update the log file with the information of the book that is being borrowed or returned.
 
-The main function (`main.py`) will be developed by the project leader.
+The main function (`main.py`) will be developed by the project leader, and each file will be assigned to a team member, containing empty functions to be developed by the person.
 
 ### Step 3: Review Plans, Signatures, and Descriptions with Teammates in Club Session
 
