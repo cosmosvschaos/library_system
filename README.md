@@ -47,7 +47,7 @@ During the club session, go over the flowchart, formats of the tables(database),
 3. Use Constants: Using constants instead of hardcoding numbers directly into your code makes it more readable and maintainable. By giving them descriptive names and storing them as constants, you make it easier to understand the purpose of those values and modify them later if needed. For example: 
 > `PERIOD = 3`
 
-4. Consider using Visual Studio Code. It's a very widely used tool and it is going to help your team to write code very effectively. It all has the autocomplete features when you type code and you can import library very easily.
+4. Consider using Visual Studio Code. It's a very widely used tool and it is going to help your team to write code very efficiently. It has the autocomplete features and you can import library very easily, and you can change the variable names all at once, and find the definition of variable/functions with just one click.
 
 5. Consider using Pandas for database
 If you use pands, you can add a new entry to a csv file as follows:
