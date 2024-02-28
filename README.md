@@ -2,7 +2,7 @@
 
 ### Step 1: Draw a flow chart of the whole program
 
-You can create the flow chart using <https://app.diagrams.net/>
+You can create the flow chart using <https://app.diagrams.net/> <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/For_loop_example.svg/255px-For_loop_example.svg.png" alt="drawing" width="200"/>
 
 
