@@ -39,8 +39,10 @@ The main function (`main.py`) will be developed by the project leader, and each 
 During the club session, go over the flowchart, formats of the tables(database), function signatures, and descriptions with your teammates. This ensures everyone is on the same page and understands their tasks. Encourage discussions and suggestions for improvements at this stage to prevent issues later in the project timeline.
 
 ### TIPS:
-1. Use Constants: Using constants instead of hardcoding numbers directly into your code makes it more readable and maintainable. By giving them descriptive names and storing them as constants, you make it easier to understand the purpose of those values and modify them later if needed.
+
+1. Start with a *Simple* Prototype: Beginning with a smaller and simpler plan allows you to iterate quickly and get feedback early in the development process. This agile approach enables you to identify and address issues sooner, and everyone understands the project better
 
 2. Limit Global Variables: Minimizing the use of global variables helps avoid unintended side effects and makes your code easier to debug. Instead, passing variables as parameters to functions and use return values can lead to more safe and maintainable code.
 
-3. Start with a *Simple* Prototype: Beginning with a smaller and simpler plan allows you to iterate quickly and get feedback early in the development process. This agile approach enables you to identify and address issues sooner, and everyone understands the project better
+3. Use Constants: Using constants instead of hardcoding numbers directly into your code makes it more readable and maintainable. By giving them descriptive names and storing them as constants, you make it easier to understand the purpose of those values and modify them later if needed. For example: 
+> `PERIOD = 3`
