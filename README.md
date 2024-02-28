@@ -49,7 +49,7 @@ During the club session, go over the flowchart, formats of the tables(database),
 
 4. Consider using Visual Studio Code. It's a very widely used tool and it is going to help your team to write code very efficiently. It has the autocomplete features and you can import library very easily, and you can change the variable names all at once, and find the definition of variable/functions with just one click.
 
-5. Consider using Pandas for database
+5. Consider using Pandas for database.
 If you use pands, you can add a new entry to a csv file as follows:
 
 ```python
